@@ -91,7 +91,7 @@ body{
 	border-radius: 11px;
 }
 .button-style-eight{
-	background-color: rgb(108, 169, 240);
+	background-color: rgb(59, 101, 150);
 }
 .button-style-seven:hover,.button-style-eight:hover,.button-style-nine:hover{
 	box-shadow: 1px 1px 1px black;
