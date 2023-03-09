@@ -96,6 +96,10 @@ body{
 .button-style-seven:active,.button-style-eight:active,.button-style-nine:active{
 	box-shadow: 0 0 0 ;
 }
+.button-style-seven:visited,.button-style-eight:visited,.button-style-nine:visited{
+	text-decoration: none;
+	color: black;
+}
 .list-name{
 	text-align: center;
 	font-size: 25px;
