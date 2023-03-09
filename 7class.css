@@ -31,9 +31,9 @@ a, a:vizited{text-decoration:none;}
 a:hover{text-decoration:none;}
 img{vertical-align: top}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400}
-body{
-	font-family: Arial, Helvetica, sans-serif;
-	background-color:azure;
+body{ 
+	font-family: 'Minecraft', sans-serif;
+	background:url("../../background/background.jpg")
 }
 .container{
 	margin-left: 400px;
@@ -42,6 +42,7 @@ body{
 	min-width: 1170px;
 }
  .rules{
+	color:rgb(163, 163, 163);
 	position: relative;
 	top: 0;
 	right: 0;
@@ -53,16 +54,17 @@ body{
 	height: 50px;
 	z-index: 1000;
 	padding-top: 10px;
-	background-color: white;
+	background: url("../../background/box_body_background.png");
 	overflow:hidden;
 	margin-bottom:5px ;
 	margin-top: 12px;
 }
 .sidebar{
+	color:rgb(163, 163, 163);
 	float: right;
 	width: 150px;
 	border:2px solid rgb(0, 0, 0);
-	background-color: white;
+	background: url("../../background/box_body_background.png");
 	border-radius: 12px;
 	z-index: 10000;
 }
@@ -79,16 +81,17 @@ body{
 	font-size: 25px;
 }
 .button-style-seven ,.button-style-eight, .button-style-nine{
-	background-color: white;
+	color:rgb(233, 233, 233);
+	background-color: rgb(109, 109, 109);
 	border: 1px solid black;
 	font-size: 19px;
 	margin-bottom: 20px;
 	padding: 5px 30px 5px 30px;
 	transition-duration: 0.15s;
-	
+	border-radius: 11px;
 }
 .button-style-seven{
-	background-color: rgb(108, 169, 240);
+	background-color: rgb(59, 101, 150);
 }
 .button-style-seven:hover,.button-style-eight:hover,.button-style-nine:hover{
 	box-shadow: 1px 1px 1px black;
@@ -131,6 +134,7 @@ font-size: 25px;
 	
 }
 .theme{
+	color:rgb(163, 163, 163);
 	border: 2px solid black;
 	border-radius: 12px;
 	padding-left: 50px;
@@ -138,7 +142,7 @@ font-size: 25px;
 	padding-bottom: 30px;
 	padding-right: 30px;
 	max-width: 930px;
-	background-color: white;
+	background: url("../../background/box_body_background.png");
 }
 
 @media (max-width:1400px) {
