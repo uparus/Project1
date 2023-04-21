@@ -150,7 +150,3 @@ font-size: 25px;
 		max-width:106px;
 	}
 }
- @media screen and (device-width: 800px) {
-    .container{
-		max-width:370px;
-   }
